@@ -6,6 +6,14 @@ const users = [
     email: "user@atlasmail.com",
     password: "123456",
   },
+
+  // test user
+  {
+    id: "a7f3b6cc-29a4-4c2d-92b3-abc123456789",
+    name: "User",
+    email: "tacoman@gmail.com",
+    password: "123456",
+  },
 ];
 
 const topics = [
