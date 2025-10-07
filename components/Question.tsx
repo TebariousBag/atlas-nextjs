@@ -13,7 +13,10 @@ export function Question({ id, text, votes }: QuestionProps) {
       <div className="mr-2 rounded-xl bg-secondary px-2 text-sm text-white">
         {votes}
       </div>
-      <Link href={`/ui/questions/${id}`} className="text w-full text-left font-semibold hover:text-atlas-teal">
+      <Link
+        href={`/ui/questions/${id}`}
+        className="text w-full text-left font-semibold hover:text-gray-300"
+      >
         {text}
       </Link>
       <VoteButton id={id} />
