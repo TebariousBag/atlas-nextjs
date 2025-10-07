@@ -25,7 +25,7 @@ export function SubmitAnswer({ questionId }: SubmitAnswerProps) {
       />
       <button
         type="submit"
-        className="absolute right-2 bottom-2 flex h-10 w-24 items-center justify-center rounded-md border bg-secondary px-4 text-lg text-white hover:bg-secondary focus:bg-secondary"
+        className="absolute right-2 bottom-2 flex h-10 w-24 items-center justify-center rounded-md border bg-secondary px-4 text-lg text-white hover:cursor-pointer hover:bg-gray-300 focus:bg-secondary"
       >
         Submit
       </button>
