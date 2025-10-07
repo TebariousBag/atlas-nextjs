@@ -31,7 +31,7 @@ export function Answer({ id, text, isAccepted, questionId }: AnswerProps) {
               : "border-gray-300 text-gray-400 hover:bg-gray-50 hover:text-green-500"
           }`}
         >
-          <CheckIcon className="h-5 w-5" />
+          <CheckIcon className="h-5 w-5 hover:cursor-pointer hover:bg-teal-300" />
         </button>
       </form>
     </div>
